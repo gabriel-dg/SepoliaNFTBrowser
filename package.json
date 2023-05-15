@@ -1,0 +1,33 @@
+{
+  "homepage": "https://gabriel-dg.github.io/RTW3-W4-NFTBrowser",
+  "private": true,
+  "scripts": {
+    "start:backend": "nodemon index.js",
+    "start:frontend": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.0",
+    "dotenv-webpack": "^7.1.0",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.1",
+    "tailwindcss": "^3.0.7",
+    "typescript": "4.5.4"
+  }
+}
