@@ -37,7 +37,7 @@ export const NFTCard = ({ nft }) => {
             </div>
             <div className="flex justify-center mb-1">
                 {/* use target={"_blank"} for opening the link on a new page/tab */}
-                <a target={"_blank"} href={`https://https://sepolia.etherscan.io/address/${nft.contract.address}`} className="py-2 px-4 bg-green-700 w-3/5 text-center rounded-lg text-white cursor-pointer hover:bg-green-600">View on Etherscan</a>
+                <a target={"_blank"} href={`https://sepolia.etherscan.io/address/${nft.contract.address}`} className="py-2 px-4 bg-green-700 w-3/5 text-center rounded-lg text-white cursor-pointer hover:bg-green-600">View on Etherscan</a>
             </div>
         </div >
     )
